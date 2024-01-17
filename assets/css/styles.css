@@ -1,0 +1,109 @@
+body {
+  background-image: url("../../assets/img/bg.svg");
+  background-size: cover;
+}
+
+.c-div {
+  display: flex;
+  justify-content: center;
+}
+
+.e-div {
+  display: flex;
+  justify-content: end;
+}
+
+.s-div {
+  display: flex;
+  justify-content: start;
+}
+
+.sp-div {
+  display: flex;
+  justify-content: space-between;
+}
+
+.sa-div {
+  display: flex;
+  justify-content: space-around;
+}
+
+.cdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.ediv {
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.sdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+}
+
+.spdiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.sadiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.dblock {
+  display: block;
+}
+
+.diblock {
+  display: block;
+}
+
+.dinline {
+  display: inline;
+}
+
+input::-webkit-outer-spin-button, input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+a {
+  text-decoration: none;
+}
+
+#b-div:hover {
+  background-color: #cccccc !important;
+}
+
+input {
+  outline: none;
+}
+
+#em-err {
+  visibility: hidden;
+}
+
+#em-div {
+  display: none;
+}
+
+#pass-err {
+  visibility: hidden;
+}
+
+#pass-div {
+  display: block;
+}
+

@@ -1,0 +1,20 @@
+@media (max-width: 576px) {
+  #main-outer {
+    max-width: 100% !important;
+    margin-top: 0px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  #form-outer {
+    max-width: 100% !important;
+  }
+}
+
+@media (max-width: 576px) {
+  body {
+    background-color: white !important;
+    background-image: none !important;
+  }
+}
+

